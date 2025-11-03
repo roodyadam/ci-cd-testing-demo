@@ -1,0 +1,22 @@
+ignored:
+  - DL3018
+  - DL3008
+```
+
+**Why:** Configuration for the Dockerfile linter (ignores some strict rules that aren't critical).
+
+### Step 7: Create `.gitignore`
+
+1. **Right-click in the root**
+2. Click **"New File"**
+3. Name it: `.gitignore`
+4. **Paste this content:**
+```
+__pycache__/
+*.pyc
+.pytest_cache/
+htmlcov/
+.coverage
+*.log
+.env
+venv/
