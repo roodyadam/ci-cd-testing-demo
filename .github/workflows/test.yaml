@@ -50,4 +50,5 @@ jobs:
       
       - name: Run pytest with coverage
         run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
           pytest tests/tests_app.py --cov=app --cov-report=term-missing -v
