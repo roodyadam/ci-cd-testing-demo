@@ -60,18 +60,3 @@ Then visit http://localhost:8080
 
 **Why:** Good documentation helps others (and your future self) understand the project.
 
-## Your Final Structure Should Look Like:
-```
-ci-cd-testing-demo/
-├── .github/
-│   └── workflows/
-│       └── test.yaml          ✅ (you already have this)
-├── tests/
-│   └── test_app.py           ← CREATE
-├── .gitignore                ← CREATE
-├── .hadolint.yaml            ← CREATE
-├── pytest.ini                ← CREATE
-├── Dockerfile                ← CREATE
-├── app.py                    ← CREATE
-├── requirements.txt          ← CREATE
-└── README.md                 ← UPDATE
